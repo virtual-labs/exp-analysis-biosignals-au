@@ -89,27 +89,39 @@
 
 
      const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.The international system recognized for placement of electrode position over the scalp regions of the brain:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "10-25 international placement system", ///// Write the option 1 inside double quotes
+                b: "10-20 international placement system", ///// Write the option 2 inside double quotes
+                c: "10-15 international placement system",
+                d: "None of the above",
+             
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "b" ///// Write the correct option inside double quotes
         },
 
     {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
-
-
-
+      question: "2.EEG signals are:", ///// Write the question inside double quotes
+            answers: {
+                a: "Non-stationary in nature", ///// Write the option 1 inside double quotes
+                b: "Stationary in nature", ///// Write the option 1 inside double quotes
+                c: "Both stationary and non-stationary in nature", ///// Write the option 1 inside double quotes
+                d: "None of the above", ///// Write the option 1 inside double quotes
+            },
+              correctAnswer: "a" ///// Write the correct option inside double quotes
+        },
+                          {
+      question: "3. The unit of power spectrum density:", ///// Write the question inside double quotes
+            answers: {
+                a: "V2", ///// Write the option 1 inside double quotes
+                b: "V2/H2", ///// Write the option 1 inside double quotes
+                c: "Hertz", ///// Write the option 1 inside double quotes
+                d: "mV", ///// Write the option 1 inside double quotes
+            },
+              correctAnswer: "b" ///// Write the correct option inside double quotes
+        },
      ];
-
+  
 
 
 
