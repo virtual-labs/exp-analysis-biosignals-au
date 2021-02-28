@@ -89,23 +89,37 @@
 
 
     const myQuestions = [{
-            question: "1.This is a sample question:", ///// Write the question inside double quotes
+            question: "1.Time-frequency methods available for the high-resolution decomposition of EEG signals over a range of characteristics frequencies are:", ///// Write the question inside double quotes
             answers: {
-                a: "This is a sample answer A", ///// Write the option 1 inside double quotes
-                b: "This is a sample answer B", ///// Write the option 2 inside double quotes
+                a: "Continuous Wavelet Transform(CWF)", ///// Write the option 1 inside double quotes
+                b: "Wigner-Ville Transform(WVT)",
+                c: "Choi-Willams Distribution (CWD)",
+                b: "All of the above",///// Write the option 2 inside double quotes
             },
-            correctAnswer: "a" ///// Write the correct option inside double quotes
+            correctAnswer: "d" ///// Write the correct option inside double quotes
         },
 
-    {
-      question: "<img src='images/8.PNG'><br>Identify the location of Secondary electron detector",  ///// Write the question inside double quotes
-      answers: {
-        a: "<img src='images/1b.png'>",                  ///// Write the option 1 inside double quotes
-        b: "<img src='images/1a.png'>",                  ///// Write the option 2 inside double quotes
-        c: "<img src='images/1c.PNG'>",      },
-      correctAnswer: "c"                ///// Write the correct option inside double quotes
-    },
-
+                         
+{
+            question: "2.In time-frequency analysis,which of the following is the frequency domain analysis used to determine the co-relation between two time series?", ///// Write the question inside double quotes
+            answers: {
+                a: "Cross-Spectrum Analysis", ///// Write the option 1 inside double quotes
+                b: "Principal Component Analysis",
+                c: "Independent Component Analysis",
+                d: "Fast-Fourier Transform",///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "d" ///// Write the correct option inside double quotes
+        },
+                         {
+            question: "3.The amplitude of EEG signal is expressed in --------unit:", ///// Write the question inside double quotes
+            answers: {
+                a: "Decibel", ///// Write the option 1 inside double quotes
+                b: "Hertz",
+                c: "Microvolt",
+                d: "Kilovolt",///// Write the option 2 inside double quotes
+            },
+            correctAnswer: "c" ///// Write the correct option inside double quotes
+        },
 
         
     ];
