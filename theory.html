@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css" />
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css" />
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+      integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+    <header class="vlabs-header sticky-top bg-white">
+      <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+        
+        <button class="navbar-toggler px-4"
+        	    type="button" onclick="toggle()">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="d-flex justify-content-center">        
+          <a href="http://vlab.co.in" class="navbar-brand">
+            <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo">
+          </a>
+        </div>
+        
+        <div id="headerNavbar" class="border-top flex-grow-1 d-flex align-items-center">
+          <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+            <li class="nav-item px-2 m-1">
+              <a href="http://vlab.co.in">HOME</a>
+            </li>
+            <li class="nav-item px-2 m-1">
+              <a href="http://vlab.co.in/participating-institutes">PARTNERS</a>
+            </li>
+            <li class="nav-item px-2 m-1">
+              <a href="http://vlab.co.in/contact-us">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+      <div class="row flex-grow-1 px-4 d-flex flex-nowrap">
+        <div class="nav flex-column sidebar flex-shrink-0" id="menu">
+            <div>
+              <div class="d-flex">
+                <a href="index.html" class="p-2 ">
+                  Aim
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="theory.html" class="p-2  current-item ">
+                  Theory
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="pretest.html" class="p-2 ">
+                  Pretest
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="procedure.html" class="p-2 ">
+                  Procedure
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="simulation.html" class="p-2 ">
+                  Simulation
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="posttest.html" class="p-2 ">
+                  Posttest
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="references.html" class="p-2 ">
+                  References
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="d-flex">
+                <a href="feedback.html" class="p-2 ">
+                  Feedback
+                </a>
+                
+              </div>
+              <div id="t-"
+                
+                   class="collapse" 
+                >
+                <div class="px-1 d-flex flex-column tasks">
+                </div>
+              </div>
+            </div>
+        </div>        <div class="vlabs-page-content px-4 pb-4 flex-grow-1 markdown-body">
+          <div class="text-center">
+            <h2 id="time-frequency-analysis-of-bio-signals">Time Frequency Analysis of Bio signals</h2>
+        
+          </div>
+            <p><strong>Introduction</strong></p>
+        <p>Electroencephalography is non-invasive tool used to monitor brain activities that measures the electrical activity generated by translating chemical variation in brain into voltage. EEG signals are measured with multi-electrode placed at properly localized (10-20 international system) part of the brain with either intracranial or Scalp EEG method. Electroencephalograph analysis has become very important to diagnose many neurological disorders like schizophrenia, epilepsy, Parkinson’s diseases etc. It identifies sensory and cognitive deficits in individuals with diseased conditions. One of the most important aspect in EEG signals processing is to the use time frequency analysis for possible diagnosis. Advanced methods of spectral analysis can extract new information encompassed in EEG signals by means of specific parameters. The EEG analysis plays very important role in feature extraction of EEG signal for detecting and predicting various brain diseases. </p>
+        <p>&nbsp;</p>
+        <p><strong>Basic Analysis of EEG Signals</strong></p>
+        <p>EEG signals are non-stationary in nature and are time domain signals. These bio signals provide information related to brain in frequency domain with imaging tools to visualize topographies. Modeling and localization of EEG signals were important to obtain the correct information about the signals after capturing through EEG electrodes. Mostly the time frequency analysis of EEG signal is performed using Wavelet transforms to visualize the signals correctly.</p>
+        <p>&nbsp;</p>
+        <p><strong>Time Domain and Frequency Domain features of EEG signals:</strong></p>
+        <p>The time domain features of EEG signals were used as it have an increase in amplitude, increase in regularity and increase in synchronicity. The average mean, variance and variability estimates were changes in EEG signal over time with a suitable window length. Good temporal resolution and short events in signal can be analyzed by short window size and longtime behavior can be estimated by a long window. Time domain analysis also estimates the synchronization of various EEG signals measured from various electrodes. A measure of synchronicity gives an idea of how similar signals are to each other. Synchronicity more specifically calculated with linear cross correlation of two different EEG signal also can be calculated by phase locking. Thus time domain features are amplitude related such as energy, power, mean, and variability, regularity are tested with variance, and coefficient of variation (COV) and total variation similarly synchronicity is verified with cross correlation and phase locking.</p>
+        <p>Frequency is the measure of the occurrence of the events in specified time. As EEG in non-stationary signal comprises of events at different frequencies. If a signal is represented by its frequency component and estimates all related features in frequency then it is known as frequency domain analysis. Most commonly used frequency domain feature is Power Spectral Density (PSD). Normalized PSD estimates the amount of power caused by events at each frequency. </p>
+        <p>&nbsp;</p>
+        <p><img src="/experiment/images/1.png" alt="">
+        Power spectrum Function of EEG signal</p>
+        <p>&nbsp;</p>
+        <p>PSD is an important to understand stationary behavior of EEGn and gives static and dynamic properties of EEG signal.
+        The analysis of stationary signals were represented in time or frequency domain. The frequency domain analysis is performed out using discrete Fourier Transform (DFT), discrete cosine transform (DCT) etc. But these tools for analysis has a disadvantage that spectrum of the signals is degraded due to short term windowing analysis and fixed transforms. Parametric estimation methods of EEG signals like Auto-regression (AR) models have an advantage over DCT of correct representation of frequency domain analysis but has disadvantage of improper estimation of model parameters since the measured signal is of very limited length. EEG signals are statistically non-stationary signals. Because there are many abnormal events occurring while capturing EEG signals.</p>
+        <p>&nbsp;</p>
+        <p><strong>Time-Frequency Analysis of EEG Signal</strong></p>
+        <p>Time domain analysis provide better spatial information and less frequency content information required for EEG classification, whereas the frequency domain provide temporal information after windowing the function. Selection of window size is a biggest challenge in frequency analysis. Time frequency analysis is the best way to resolve these problems. Most studies indicated that wavelet analysis is best method for time frequency analysis. Other mathematical models such as Fourier Transform (FT), Fast Fourier Transform (FFT), Short Time Fourier Transform (STFT) and Wavelet Transform (WT) also used for EEG signal feature extraction.</p>
+        <p>&nbsp;</p>
+        <p><em><strong>Time-Frequency Analysis with Wavelet Analysis</strong></em>: </p>
+        <p>Wavelet transform is one such tool being used recently for such analysis of non-stationary signals like EEG. Wavelet transform theory mainly applied in the field of Digital Signal Processing. Wavelet is a type of time-frequency analysis, which provides information about both frequency and time within signals. Analysis by wavelet represents a special type of linear transform of signals and also physical data represented by the signals about processes and physical properties of mediums and objects. Wavelet Transform has been more efficient for signal analysis in comparison to other transform methods such as Fourier transform, Short Time Fourier Transform. The main advantage of wavelet transform is that it has a varying window size which is broad at low frequencies and narrow at high frequencies leading to an optimal time frequency resolution in all frequency ranges i.e. it holds the multiresolution properties). In mathematics, a wavelet series is a representation of square integrable which can be real or complex valued function. A wavelet is a wave like oscillation with amplitude that begins at zero, increases and then decreases back to zero. Wavelets are generally crafted to have specific properties that make them useful for signal processing. Wavelets transforms are broadly divided into three classes: continuous, discrete, and multiresolution-based.</p>
+        <p><img src="/experiment/images/2.png" alt=""></p>
+        <p>&nbsp;</p>
+        <p><em><strong>Time-Frequency Analysis with Fourier Transform:</strong></em> </p>
+        <p>one of the most commonly method used for frequency analysis and to estimate frequency component in EEG signal was the Fourier transform. Because of its high computational speed, it was used in real time monitoring and analysis of various physiological signals. Fourier transform allows separation of various EEG rhythms which facilitates analysis of the occurrence of rhythmic activities in signals. Fast Fourier Transform (FFT) analysis apply on specific time intervals of EEG signal data, each of this time interval composed of pre and post event of stimulus.  In an FFT analysis these time intervals are predefined. Non-stationary EEG signals contain artifacts but in FFT analysis artifacts free signal data is preferable.  Before computing the Fourier Transforms, each epoch is multiplied by a proper windowing function. This periodgrams are computed and averaged for further analysis. Parameters that can be observed with FT are relative power (Power ratio of alpha activity and theta activity) and asymmetric index. Due to multifrequency signal nature of EEG signals, Fourier Transform is useful in EEG biosignals features extractions.</p>
+        <p>&nbsp;</p>
+        <p><em><strong>Time-Frequency Analysis with Gabor Transform (Short Time Fourier Transform)
+        :</strong></em> </p>
+        <p>The time varying feautres of EEG cannot be resolved with Fourier Transform. Fourier analysis cannot detect real time, frequency variations. This challenge can overcome by using Gabor transform also called as Short Time Fourier Transform. This is widowed Fourier Transform in which Fourier Transform is progressively taken over a time window of a few seconds with stationary window length. Thus non stationary signal is divided in time segment and the FT is successively applied to each segment. </p>
+        <p><img src="/experiment/images/3.png" alt=""></p>
+        
+        </div>
+      </div>
+    </div>
+    <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+      <div class="row px-5">
+        <div class="col d-flex flex-column">
+          <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+          <a href="http://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+          <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+          <a href="http://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+        </div>
+        <div class="col d-flex flex-column">
+          <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+          <span> Phone: General Information: 011-26582050 </span>
+          <span> Email: support@vlabs.ac.in </span>
+        </div>
+        <div class="col d-flex flex-column">
+          <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+          <div class="social-links">
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+    	  <i class="fa fa-twitter"></i>
+    	</a>
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+    	  <i class="fa fa-facebook"></i>
+    	</a>
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+    	  <i class="fa fa-youtube"></i>
+    	</a>
+    	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+    	  <i class="fa fa-linkedin"></i>
+    	</a>
+          </div>
+        </div>
+      </div>
+      <div class="m-0 py-2 text-center" style='font-family: "Open Sans", sans-serif; background: #212121;'>
+        <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+        &nbsp;&amp;&nbsp;
+        <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+      </div>
+    </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  </body>
+</html>
