@@ -8,7 +8,7 @@
 
 ### About the Experiment 
 
-"This experiment introduces the concept of channel capacity in digital communication systems, allowing users to analyze how noise and bandwidth affect data transmission efficiency using interactive simulations."
+"The experiment "Time-Frequency Analysis of Bio-signals" introduces methods to analyze non-stationary biomedical signals, such as ECG or EEG, using time-frequency techniques like the Short-Time Fourier Transform (STFT) and Wavelet Transform. This helps visualize how signal frequency content evolves over time, providing deeper insights into physiological processes and abnormalities."
 
 <b>Name of Developer | <b> Dr. Shyam Diwakar 
 :--|:--|
